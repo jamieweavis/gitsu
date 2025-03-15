@@ -54,7 +54,7 @@ npm link
 
 Unlinking the package from your global npm modules
 ```sh
-npm uninstall gitsu -g
+npm unlink gitsu-cli -g
 ```
 
 ## Built With
