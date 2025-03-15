@@ -11,7 +11,7 @@ import list from './commands/list';
 const bootstrap = () => {
   program.description(
     `Util for quickly & easily switching git users from a config stored at ${chalk.cyan(
-      '~/.gitsu',
+      '~/.gitsurc',
     )}`,
   );
   program.version(version);

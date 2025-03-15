@@ -1,6 +1,6 @@
 # gitsu <img alt="Ninja Emoji" align="right" width=40 height=40 alt="Screenshot" src="./.github/ninja.svg">
 
-> 🥷 Util for quickly & easily switching git users from a config stored at ~/.gitsu
+> 🥷 Util for quickly & easily switching git users from a config stored at ~/.gitsurc
 
 [![build](https://github.com/jamieweavis/streaker/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/jamieweavis/streaker/actions)
 [![downloads](https://img.shields.io/github/downloads/jamieweavis/streaker/total.svg)](https://github.com/jamieweavis/streaker/releases)
@@ -15,17 +15,17 @@ npm install gitsu-cli -g
 
 ## Usage
 
-Open switcher to select a user from your `~/.gitsu` config
+Open switcher to select a user from your `~/.gitsurc` config
 ```sh
 gitsu
 ```
 
-List users stored in your `~/.gitsu` config
+List users stored in your `~/.gitsurc` config
 ```sh
 gitsu --list (or -l)
 ```
 
-Open your `~/.gitsu` config for editing in your default editor
+Open your `~/.gitsurc` config for editing in your default editor
 ```sh
 gitsu --edit (or -e)
 ```

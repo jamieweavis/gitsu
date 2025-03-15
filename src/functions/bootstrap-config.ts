@@ -31,7 +31,7 @@ export default async (): Promise<boolean> => {
 
       console.info(
         `${logSymbols.info} Created initial ${chalk.cyan(
-          '~/.gitsu',
+          '~/.gitsurc',
         )} with user ${chalk.cyan(currentChoice)}`,
       );
 
@@ -39,7 +39,7 @@ export default async (): Promise<boolean> => {
     } catch (error) {
       console.error(
         `${logSymbols.error} ${chalk.red(
-          'Failed to create ~/.gitsu config file',
+          'Failed to create ~/.gitsurc config file',
         )}`,
         error,
       );
