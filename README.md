@@ -1,4 +1,4 @@
-# gitsu <img alt="Ninja Emoji" align="right" width=40 height=40 alt="Screenshot" src="./.github/ninja.svg">
+# gitsu
 
 > 🥷 Command line util for quickly & easily switching git users
 
@@ -37,27 +37,30 @@ Compiling a production build
 npm run build
 ```
 
-Running a production build
-```sh
-npm start
-```
-
 Running in development mode
 ```sh
 npm run dev
 ```
 
-Linking the package to your global npm modules
+Running a production build
+```sh
+npm start
+```
+
+## Linking
+
+Link the local package to your global npm modules
 ```sh
 npm link
 ```
 
-Unlinking the package from your global npm modules
+Unlink the local package from your global npm modules
 ```sh
 npm unlink gitsu-cli -g
 ```
 
 ## Built With
 
-- [Node.js](https://nodejs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Node.js](https://github.com/nodejs/node)
+- [TypeScript](https://github.com/microsoft/TypeScript)
+- [Commander.js](https://github.com/tj/commander.js)
