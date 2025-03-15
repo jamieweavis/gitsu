@@ -1,8 +1,8 @@
+import chalk from 'chalk';
+import logSymbols from 'log-symbols';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import chalk from 'chalk';
-import logSymbols from 'log-symbols';
 
 import { parseChoice } from '../utils/choice';
 import getConfig from '../utils/get-config';
@@ -30,16 +30,16 @@ export default async (): Promise<boolean> => {
       );
 
       console.info(
-        `${logSymbols.info} Created initial gitsu config file at ${chalk.cyan(
-          configPath,
-        )} with current git user ${chalk.cyan(currentChoice)}`,
+        `${logSymbols.info} Created initial ${chalk.cyan(
+          '~/.gitsu',
+        )} with user ${chalk.cyan(currentChoice)}`,
       );
 
       return true;
     } catch (error) {
       console.error(
         `${logSymbols.error} ${chalk.red(
-          'Failed to create gitsu config file',
+          'Failed to create ~/.gitsu config file',
         )}`,
         error,
       );
