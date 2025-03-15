@@ -1,11 +1,11 @@
 # gitsu <img alt="Ninja Emoji" align="right" width=40 height=40 alt="Screenshot" src="./.github/ninja.svg">
 
-> 🥷 Util for quickly & easily switching git users from a config stored at ~/.gitsurc
+> 🥷 Command line util for quickly & easily switching git users
 
-[![build](https://github.com/jamieweavis/streaker/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/jamieweavis/streaker/actions)
-[![downloads](https://img.shields.io/github/downloads/jamieweavis/streaker/total.svg)](https://github.com/jamieweavis/streaker/releases)
-[![version](https://img.shields.io/github/release/jamieweavis/streaker.svg)](https://github.com/jamieweavis/streaker/releases)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jamieweavis/streaker/blob/main/LICENSE)
+[![build](https://github.com/jamieweavis/gitsu/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/jamieweavis/gitsu/actions)
+[![downloads](https://img.shields.io/npm/dt/gitsu-cli.svg)](https://npmjs.com/package/gitsu-cli)
+[![version](https://img.shields.io/github/release/jamieweavis/gitsu.svg)](https://github.com/jamieweavis/gitsu/releases)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jamieweavis/gitsu/blob/main/LICENSE)
 
 ## Install
 
