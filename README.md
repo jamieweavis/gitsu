@@ -15,7 +15,7 @@ npm install gitsu-cli -g
 
 ## Usage
 
-Open switcher to select a user from your `~/.gitsurc` config
+Open the `gitsu` switcher to select a user from your `~/.gitsurc` config
 ```sh
 gitsu
 ```
