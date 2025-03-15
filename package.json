@@ -8,18 +8,15 @@
   "bin": {
     "gitsu": "./lib/src/app.js"
   },
-  "keywords": [
-    "git",
-    "user",
-    "switch",
-    "gitsu"
-  ],
+  "keywords": ["git", "user", "switch", "gitsu"],
   "scripts": {
     "start": "node ./lib/src/app.js",
     "dev": "ts-node-dev --respawn ./src/app.ts",
     "build": "tsc",
-    "format": "prettier --write --ignore-unknown ./src",
-    "lint": "eslint ./src"
+    "lint": "biome check src",
+    "lint:fix": "npm run lint -- --write",
+    "format": "biome format src",
+    "format:write": "npm run format --  --write"
   },
   "dependencies": {
     "@types/configstore": "^5.0.1",
@@ -33,13 +30,7 @@
     "typescript": "^4.6.4"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.25.0",
-    "@typescript-eslint/parser": "^5.25.0",
-    "eslint": "^8.16.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.6.2",
+    "@biomejs/biome": "^1.9.4",
     "ts-node": "^10.8.0",
     "ts-node-dev": "^1.1.8"
   }

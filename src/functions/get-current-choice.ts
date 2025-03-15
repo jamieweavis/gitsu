@@ -1,5 +1,5 @@
+import child_process from 'node:child_process';
 import chalk from 'chalk';
-import child_process from 'child_process';
 import logSymbols from 'log-symbols';
 
 import { formatChoice } from '../utils/choice';

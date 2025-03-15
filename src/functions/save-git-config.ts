@@ -1,7 +1,7 @@
-import child_process from 'child_process';
+import child_process from 'node:child_process';
 import logSymbols from 'log-symbols';
 
-import { IUser } from '../types';
+import type { IUser } from '../types';
 
 export default async (user: IUser): Promise<boolean> => {
   try {

@@ -1,8 +1,8 @@
 import chalk from 'chalk';
 import logSymbols from 'log-symbols';
 
-import { IUser } from '../types';
 import getCurrentChoice from '../functions/get-current-choice';
+import type { IUser } from '../types';
 import { formatChoice } from '../utils/choice';
 import getConfig from '../utils/get-config';
 

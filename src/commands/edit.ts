@@ -1,7 +1,7 @@
+import child_process from 'node:child_process';
+import os from 'node:os';
+import path from 'node:path';
 import chalk from 'chalk';
-import child_process from 'child_process';
-import os from 'os';
-import path from 'path';
 import logSymbols from 'log-symbols';
 
 export default () => {

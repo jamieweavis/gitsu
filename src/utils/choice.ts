@@ -1,4 +1,4 @@
-import { IUser } from '../types';
+import type { IUser } from '../types';
 
 export const formatChoice = (user: IUser): string =>
   `${user.name} <${user.email}>`;

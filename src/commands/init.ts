@@ -2,10 +2,10 @@ import chalk from 'chalk';
 import inquirer from 'inquirer';
 import logSymbols from 'log-symbols';
 
-import { IUser } from '../types';
 import bootstrapConfig from '../functions/bootstrap-config';
 import getCurrentChoice from '../functions/get-current-choice';
 import saveGitConfig from '../functions/save-git-config';
+import type { IUser } from '../types';
 import { defaultChoice, formatChoice, parseChoice } from '../utils/choice';
 import getConfig from '../utils/get-config';
 
