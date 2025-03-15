@@ -16,7 +16,15 @@
   "bin": {
     "gitsu": "./lib/src/app.js"
   },
-  "keywords": ["git", "user", "switch", "gitsu", "su", "switch-user"],
+  "keywords": [
+    "git",
+    "gitconfig",
+    "user",
+    "switch",
+    "gitsu",
+    "su",
+    "switch-user"
+  ],
   "scripts": {
     "start": "node ./lib/src/app.js",
     "dev": "ts-node-dev --respawn ./src/app.ts",
