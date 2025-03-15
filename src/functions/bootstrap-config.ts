@@ -1,8 +1,8 @@
-import chalk from 'chalk';
-import logSymbols from 'log-symbols';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
+import chalk from 'chalk';
+import logSymbols from 'log-symbols';
 
 import { parseChoice } from '../utils/choice';
 import getConfig from '../utils/get-config';
