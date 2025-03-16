@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/jamieweavis/gitsu/compare/v1.0.2...v1.0.3) (2025-03-16)
+
+
+### Bug Fixes
+
+* npm publish ([0f76e46](https://github.com/jamieweavis/gitsu/commit/0f76e463d8208811b07430a7a499988e67ca6e68))
+
 ## [1.0.2](https://github.com/jamieweavis/gitsu/compare/v1.0.1...v1.0.2) (2025-03-16)
 
 
