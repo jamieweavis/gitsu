@@ -1,6 +1,6 @@
 {
   "name": "gitsu-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Command line util for quickly & easily switching git users",
   "author": "Jamie Weavis",
   "homepage": "https://github.com/jamieweavis/gitsu#readme",

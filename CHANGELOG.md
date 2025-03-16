@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/jamieweavis/gitsu/compare/v1.0.1...v1.0.2) (2025-03-16)
+
+
+### Bug Fixes
+
+* save git config globally ([d744f2f](https://github.com/jamieweavis/gitsu/commit/d744f2ff3c39187531c60d41df3269b8f4bd7d7e))
+
 ## [1.0.1](https://github.com/jamieweavis/gitsu/compare/v1.0.0...v1.0.1) (2025-03-15)
 
 
