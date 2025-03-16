@@ -6,7 +6,7 @@ import type { IUser } from '../types';
 export default async (user: IUser): Promise<boolean> => {
   try {
     await child_process.exec(
-      `git config user.name "${user.name}" && git config user.email "${user.email}"`,
+      `git config --global user.name "${user.name}" && git config --global user.email "${user.email}"`,
     );
 
     return true;
