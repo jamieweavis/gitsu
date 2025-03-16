@@ -7,6 +7,8 @@
 [![version](https://img.shields.io/github/release/jamieweavis/gitsu.svg)](https://github.com/jamieweavis/gitsu/releases)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jamieweavis/gitsu/blob/main/LICENSE)
 
+<img width=678 alt="Screenshot" src="./.github/screenshot.png">
+
 ## Install
 
 ```sh
