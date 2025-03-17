@@ -68,3 +68,7 @@ npm unlink gitsu-cli -g
 - [Node.js](https://github.com/nodejs/node)
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [Commander.js](https://github.com/tj/commander.js)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
