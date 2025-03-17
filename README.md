@@ -24,12 +24,14 @@ gitsu
 
 List users stored in your `~/.gitsurc` config
 ```sh
-gitsu --list (or -l)
+gitsu --list
+gitsu -l
 ```
 
 Open your `~/.gitsurc` config for editing in your default editor
 ```sh
-gitsu --edit (or -e)
+gitsu --edit
+gitsu -e
 ```
 
 ## Building
