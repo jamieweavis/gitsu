@@ -9,7 +9,7 @@ import list from './commands/list';
 
 const bootstrap = () => {
   program.description(
-    'Command line util for quickly & easily switching git users',
+    'Command line util for quickly & easily switching git identities',
   );
   program.version(version);
   program.option('-e, --edit', 'edit ~/.gitsurc with your EDITOR');

@@ -15,7 +15,7 @@ export default async (): Promise<string> => {
     return formatChoice({ name, email });
   } catch (error) {
     console.error(
-      `${logSymbols.error} ${chalk.red('Failed to fetch current git user')}`,
+      `${logSymbols.error} ${chalk.red('Failed to fetch current git identity')}`,
       error,
     );
     return '';
