@@ -63,6 +63,19 @@ Unlink the local package from your global npm modules
 npm unlink gitsu-cli -g
 ```
 
+## Config
+
+When you run `gitsu` for the first time, a `.gitsurc` file is created in your home directory. This file is used to store your git identities.
+
+```json
+[
+  { "name": "John", "email": "john.doe@gmail.com" },
+  { "name": "John Doe", "email": "john.doe@corporate.com" },
+  { "name": "Johnny", "email": "johnny@startup.io" }
+]
+
+```
+
 ## Built With
 
 - [Node.js](https://github.com/nodejs/node)
