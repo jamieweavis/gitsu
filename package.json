@@ -1,6 +1,6 @@
 {
   "name": "gitsu-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Command line util for quickly & easily switching git identities",
   "author": "Jamie Weavis",
   "homepage": "https://github.com/jamieweavis/gitsu#readme",
@@ -65,7 +65,9 @@
     "ts-node-dev": "^2.0.0"
   },
   "release": {
-    "branches": ["main"],
+    "branches": [
+      "main"
+    ],
     "plugins": [
       "@semantic-release/changelog",
       "@semantic-release/commit-analyzer",
@@ -76,9 +78,14 @@
     ]
   },
   "lint-staged": {
-    "*.ts": ["biome format --write", "biome lint --write"]
+    "*.ts": [
+      "biome format --write",
+      "biome lint --write"
+    ]
   },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"]
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   }
 }

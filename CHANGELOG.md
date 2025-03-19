@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/jamieweavis/gitsu/compare/v1.0.4...v1.0.5) (2025-03-19)
+
+
+### Bug Fixes
+
+* improve app description ([5016374](https://github.com/jamieweavis/gitsu/commit/5016374e422875fde42859da6386bec62bd57673))
+
 ## [1.0.4](https://github.com/jamieweavis/gitsu/compare/v1.0.3...v1.0.4) (2025-03-16)
 
 
