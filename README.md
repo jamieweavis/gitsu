@@ -4,7 +4,7 @@
 
 [![build](https://github.com/jamieweavis/gitsu/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/jamieweavis/gitsu/actions)
 [![downloads](https://img.shields.io/npm/dt/gitsu-cli.svg)](https://npmjs.com/package/gitsu-cli)
-[![version](https://img.shields.io/github/release/jamieweavis/gitsu.svg)](https://github.com/jamieweavis/gitsu/releases)
+[![version](https://img.shields.io/npm/v/gitsu-cli.svg)](https://github.com/jamieweavis/gitsu/releases)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jamieweavis/gitsu/blob/main/LICENSE)
 
 <img width=678 alt="Screenshot" src="./.github/screenshot.png">
