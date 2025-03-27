@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/jamieweavis/gitsu/compare/v1.0.5...v1.0.6) (2025-03-27)
+
+
+### Bug Fixes
+
+* version number being out of sync ([62d368e](https://github.com/jamieweavis/gitsu/commit/62d368ede1b487d24a2085b4984884fdc479bcac))
+
 ## [1.0.5](https://github.com/jamieweavis/gitsu/compare/v1.0.4...v1.0.5) (2025-03-19)
 
 
