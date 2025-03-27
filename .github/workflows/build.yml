@@ -31,8 +31,7 @@ jobs:
           node-version: 22
       - run: npm ci
       - run: npm run build
-      - id: release
-        uses: cycjimmy/semantic-release-action@v4
+      - run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
