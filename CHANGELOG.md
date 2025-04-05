@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/jamieweavis/gitsu/compare/v1.0.6...v1.0.7) (2025-04-05)
+
+
+### Bug Fixes
+
+* handle git exec asynchronously ([cfcdb63](https://github.com/jamieweavis/gitsu/commit/cfcdb630fbd680759278f47a98f4481766d6ff0e))
+
 ## [1.0.6](https://github.com/jamieweavis/gitsu/compare/v1.0.5...v1.0.6) (2025-03-27)
 
 
