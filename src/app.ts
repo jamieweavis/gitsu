@@ -2,15 +2,13 @@
 
 import { program } from 'commander';
 
-import { version } from '../package.json';
+import { description, version } from '../package.json';
 import edit from './commands/edit';
 import init from './commands/init';
 import list from './commands/list';
 
 const bootstrap = () => {
-  program.description(
-    'Command line util for quickly & easily switching git identities',
-  );
+  program.description(description);
   program.version(version);
   program.option('-e, --edit', 'edit ~/.gitsurc with your EDITOR');
   program.option('-l, --list', 'list users stored in ~/.gitsurc');

@@ -1,6 +1,6 @@
 # gitsu
 
-> 🥷 Command line util for quickly & easily switching git identities
+Interactive command line util for quickly & easily switching git users
 
 [![ci](https://github.com/jamieweavis/gitsu/actions/workflows/ci.yml/badge.svg)](https://github.com/jamieweavis/gitsu/actions)
 [![downloads](https://img.shields.io/npm/dt/gitsu-cli.svg)](https://npmjs.com/package/gitsu-cli)
