@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/jamieweavis/gitsu/compare/v1.0.7...v1.0.8) (2025-04-14)
+
+
+### Bug Fixes
+
+* update description ([867254a](https://github.com/jamieweavis/gitsu/commit/867254a9b1dbd270eb01580796e94cc67aee2037))
+
 ## [1.0.7](https://github.com/jamieweavis/gitsu/compare/v1.0.6...v1.0.7) (2025-04-05)
 
 
