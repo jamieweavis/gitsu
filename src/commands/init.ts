@@ -30,7 +30,7 @@ export default async () => {
         default: defaultChoice(users, currentChoice || users[0]),
       },
     ]);
-  } catch (error) {
+  } catch (_error) {
     console.log(`\n${logSymbols.error} ${chalk.red('Switch aborted by user')}`);
   }
 

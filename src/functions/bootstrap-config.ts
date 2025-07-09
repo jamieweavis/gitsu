@@ -13,7 +13,7 @@ export default async (): Promise<boolean> => {
     await getConfig();
 
     return true;
-  } catch (e) {
+  } catch (_e) {
     try {
       const currentChoice = await getCurrentChoice();
       const user = parseChoice(currentChoice);

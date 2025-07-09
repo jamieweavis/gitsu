@@ -1,5 +1,4 @@
 import { cosmiconfig } from 'cosmiconfig';
-import { name } from '../../package.json';
 
 export default async () => {
   const explorer = cosmiconfig('gitsu');
