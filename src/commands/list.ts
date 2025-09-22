@@ -12,7 +12,7 @@ export default async () => {
     const users = configResult.config;
     const currentChoice = await getCurrentChoice();
 
-    users.map((user: IUser) => {
+    users.forEach((user: IUser) => {
       if (currentChoice === formatChoice(user)) {
         console.log(`${logSymbols.success} ${formatChoice(user)}`);
       } else {
