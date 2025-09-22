@@ -29,10 +29,8 @@
     "start": "node ./lib/src/app.js",
     "dev": "ts-node-dev --respawn ./src/app.ts",
     "build": "tsc",
-    "lint": "biome check src",
-    "lint:write": "pnpm lint -- --write",
-    "format": "biome format src",
-    "format:write": "pnpm format -- --write",
+    "check": "biome check src",
+    "check:write": "pnpm check -- --write",
     "prepare": "husky"
   },
   "dependencies": {
