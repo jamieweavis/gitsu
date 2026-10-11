@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/jamieweavis/gitsu/compare/v1.0.8...v1.0.9) (2026-10-11)
+
+
+### Bug Fixes
+
+* **deps:** upgrade dependencies and target node 24 ([53e0ddb](https://github.com/jamieweavis/gitsu/commit/53e0ddb702b50c6ef5600b359f85c3d70c6b0140))
+
 ## [1.0.8](https://github.com/jamieweavis/gitsu/compare/v1.0.7...v1.0.8) (2025-04-14)
 
 
