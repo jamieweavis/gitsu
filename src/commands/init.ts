@@ -21,9 +21,9 @@ export default async () => {
   let answers: { user: string } | undefined;
   try {
     const currentChoice = await getCurrentChoice();
-    answers = await inquirer.prompt([
+    answers = await inquirer.prompt<{ user: string }>([
       {
-        type: 'list',
+        type: 'select',
         name: 'user',
         message: 'Which user would you like to use?',
         choices: () => users.map((user: IUser) => formatChoice(user)),
